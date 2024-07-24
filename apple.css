@@ -4,9 +4,18 @@
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.nav1{
+  background-color: #f0f2f5;
+  height: 40px;
+  width: auto;
+display: flex;
+align-items: center;
+padding-left: 180px;
+top: 50px;
+}
 .navbar{
   height: 45px;
-  width: auto;
+  width: 100%;
   background-color:white;
  display: flex;
  justify-content: center;
@@ -14,8 +23,7 @@
 }
 .logo{
   height: 35px;
-}
-.navbar p{
+}.navbar p{
 padding-left: 40px;
 font-size: 13px;
 }
@@ -213,14 +221,23 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
 }
 .foot2 ul{
-padding-left: 50px;
 list-style: none;
 font-size: 16px;
 }
 .foot2 li{
   margin-top: 10px;
 }
-.foot2 ul{
+.foot2 {
   border-top: 1px solid black;
   padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: capitalize;
+}
+.footcontain{
+  margin-top: 80px;
+  border-bottom: 1px solid black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
 }
